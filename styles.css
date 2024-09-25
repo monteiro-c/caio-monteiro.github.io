@@ -51,7 +51,7 @@ section h2 {
 }
 
 section p {
-    text-align: center;
+    text-align: justify;
     font-size: 1.2em;
 }
 
@@ -66,9 +66,5 @@ footer {
 footer a {
     color: #1e90ff;
     text-decoration: none;
-}
-
-.justificar {
-    text-align: justify;
 }
 
