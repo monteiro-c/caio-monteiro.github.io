@@ -1,48 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Moderno</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Vinculando o CSS -->
-    <script type="text/javascript" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
-        <h1>Meu Site Moderno</h1>
+        <h1>Bem-vindo ao Meu Portfólio</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Contêiner principal -->
-    <main class="container">
-        <section>
-            <h2>Sobre Mim</h2>
-            <p>Bem-vindo ao meu site! Aqui compartilho informações sobre diversos tópicos, incluindo matemática e programação.</p>
-        </section>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor focado em soluções de tecnologia com C++ e Python. Tenho paixão por resolver problemas complexos e explorar novos campos como ciência de dados e algoritmos numéricos.</p>
+    </section>
 
-        <section>
-            <h2>Matemática com LaTeX</h2>
-            <p>Aqui está um exemplo de fórmula usando LaTeX:</p>
-            <p>Fórmula inline: \( E = mc^2 \)</p>
-            <p>Fórmula em bloco:</p>
-            <div>
-                $$ \int_{a}^{b} f(x) \,dx = F(b) - F(a) $$
-            </div>
-        </section>
-    </main>
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <ul>
+            <li>Projeto 1 - Análise de dados com Python</li>
+            <li>Projeto 2 - Simulação de equações diferenciais</li>
+            <li>Projeto 3 - Implementação de algoritmos em C++</li>
+        </ul>
+    </section>
 
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    <footer id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Email: <a href="mailto:seuemail@dominio.com">seuemail@dominio.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/seuperfil">linkedin.com/in/seuperfil</a></p>
     </footer>
 </body>
 </html>
+
